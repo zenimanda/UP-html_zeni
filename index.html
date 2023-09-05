@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registrasi</title>
+</head>
+<body>
+    <form action="proses_registrasi.php" method="post">
+      <table style="background-color: rgb(127, 168, 255);" border="0" cellpadding="10" cellspacing="0">
+        <tr>
+          <td colspan="3" align="center"><h2>Form Registrasi</h2>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="nama">Nama:</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" id="nama" name="nama" required><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tanggal_lahir">Tanggal Lahir:</label>
+          </td>
+          <td>:</td>
+          <td><input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>        <label for="jenis_kelamin">Jenis Kelamin:</label>
+          </td>
+          <td>:</td>
+        <td>       <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required>
+          <label for="laki_laki">Laki-laki</label>
+          <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+          <label for="perempuan">Perempuan</label><br><br>
+        </td>
+        </tr>
+        <tr>
+          <td><label for="alamat">Alamat:</label></td>
+          <td>:</td>
+          <td><textarea id="alamat" name="alamat" required></textarea><br><br></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>:</td>
+          <td><input type="email" id="email" name="email" required><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="no_hp">Nomor HP:</label></td>
+          <td>:</td>
+          <td><input type="tel" id="no_hp" name="no_hp" required><br><br></td>
+        </tr>
+        <tr>
+          <td><label for="kota">Kota Pilihan:</label></td>
+          <td>:</td>
+          <td><select id="kota" name="kota" required>
+            <option value="Blitar">Blitar</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Kediri">Kediri</option>
+            <option value="Tulungagung">Tulungagung</option>
+            <option value="Malang">Malang</option>
+            <option value="Madiun">Madiun</option>
+            <option value="Nganjuk">Nganjuk</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <input type="checkbox" id="remember" name="remember" value="1">
+            <label for="remember">Saya Menyetujui Peraturan Yang Ada</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <input type="button" value="Simpan">
+            <input type="button" value="Batal">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <p>Belum punya akun? <a href="Login.html">Login</a></p>
+          </td>
+        </tr>
+      </table>       
+        
+        
+        
+
+        
+        
+     
+        
+
+    </form>
+</body>
+</html>
